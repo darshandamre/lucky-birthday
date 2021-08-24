@@ -10,7 +10,7 @@ An app that checks if your birthday is lucky. It takes birthdate and lucky numbe
 
 ### Links
 
-- Live Site URL: [cash-register-darshan.netlify.app/](https://cash-register-darshan.netlify.app/)
+- Live Site URL: [https://lucky-birthdays-darshan.netlify.app/](https://lucky-birthdays-darshan.netlify.app/)
 
 ### Built with
 
