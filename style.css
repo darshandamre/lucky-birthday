@@ -47,3 +47,12 @@ input {
   font-weight: 700;
   display: none;
 }
+
+.privacy-notice {
+  text-align: center;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
