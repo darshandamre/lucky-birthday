@@ -48,6 +48,12 @@ input {
   display: none;
 }
 
+.error {
+  display: none;
+  font-weight: 700;
+  color: red;
+}
+
 .privacy-notice {
   text-align: center;
 

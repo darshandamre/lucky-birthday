@@ -5,6 +5,7 @@ const luckyNumber = document.getElementById("lucky-number");
 // output
 const luckyOutput = document.querySelector(".output--lucky");
 const notLuckyOutput = document.querySelector(".output--not-lucky");
+const error = document.querySelector(".error");
 
 // buttons
 const checkBtn = document.getElementById("check-btn");
@@ -33,12 +34,18 @@ checkBtn.addEventListener("click", () => {
   let date = dateOfBirth.value;
   let number = Number(luckyNumber.value);
 
+  if (date === "" || luckyNumber.value === "") {
+    return show(error);
+  }
+
   if (isBirthdayLucky(date, number)) {
     show(luckyOutput);
     hide(notLuckyOutput);
+    hide(error);
   }
   if (!isBirthdayLucky(date, number)) {
     show(notLuckyOutput);
     hide(luckyOutput);
+    hide(error);
   }
 });
